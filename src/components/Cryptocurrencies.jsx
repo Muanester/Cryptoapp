@@ -10,6 +10,8 @@ function Cryptocurrencies({ simplified }) {
 
   const { data: cryptosList, isFetching } = useGetCryptosQuery(count);
 
+  console.log(cryptosList);
+
   const [cryptos, setCryptos] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 

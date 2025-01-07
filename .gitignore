@@ -24,4 +24,5 @@ yarn-error.log*
 
 # Other
 /src/services/cryptoApi.js
+/src/services/cryptoNewsApi.js
 
